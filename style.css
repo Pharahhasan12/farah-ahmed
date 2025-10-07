@@ -1,3 +1,6 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
 *{
  margin: 0;
  padding: 0;
@@ -14,6 +17,7 @@ header{
     height: 5rem;
     background-color:rgba(35, 45, 57, 0.8);
     width: 100%;
+    position: sticky;
     top:0rem;
 }
 
@@ -35,6 +39,60 @@ header{
     gap: 70px;
     /* text-align: center; */
 }
+
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #5f6ad4;
+    color: white;
+    padding: 10px;
+    top: 10%;
+    right: 5%;
+    border-radius: 50%;
+}
+
+.mobile-menu {
+    display: none;
+}
+.mobile-media{
+   display: flex;
+   position: fixed;
+   background-color: #5f6ad4;
+   inset: 0 0 0 0;
+}
+
+.mobile-menu-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+.mobile-menu-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    background-color: #5f6ad4;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
 .top{
     display: flex;
     gap: 80px;
