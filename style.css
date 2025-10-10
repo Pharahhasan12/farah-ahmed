@@ -57,7 +57,7 @@ header{
     display: none;
 }
 .mobile-media{
-   display: flex;
+   display: none;
    position: fixed;
    background-color: #5f6ad4;
    inset: 0 0 0 0;
